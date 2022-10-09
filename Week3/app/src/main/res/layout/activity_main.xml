@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="165dp"
+        android:layout_height="198dp"
+        tools:layout_editor_absoluteX="21dp"
+        tools:layout_editor_absoluteY="21dp"
+        tools:srcCompat="@tools:sample/avatars" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="140dp"
+        android:layout_height="49dp"
+        android:text="Name Surname"
+        tools:layout_editor_absoluteX="313dp"
+        tools:layout_editor_absoluteY="82dp" />
+
+    <ListView
+        android:id="@+id/listview"
+        android:layout_width="1089dp"
+        android:layout_height="1221dp"
+        tools:layout_editor_absoluteX="12dp"
+        tools:layout_editor_absoluteY="229dp" />
+
+    <Button
+        android:id="@+id/btnPost"
+        android:layout_width="1090dp"
+        android:layout_height="86dp"
+        android:text="NEW POST"
+        tools:layout_editor_absoluteX="15dp"
+        tools:layout_editor_absoluteY="1471dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
